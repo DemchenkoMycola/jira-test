@@ -1,0 +1,52 @@
+body{
+  background: #fcc;
+}
+
+.main_content{
+  /* position: relative; */
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input{
+  margin: 5px;  
+}
+
+.modal {
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  /* position: fixed; */
+  margin: auto;
+  /* visibility: hidden; */
+  background: #ccf;
+  border: 2px solid #eee;
+  padding: 20px;
+}
+
+.projects_list {
+  padding: 20px;
+  border: 2px solid #eee;
+}
+
+.project_item {
+  border: 2px solid #ccc;
+  background: #aaf;
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  color: #fff;
+}
+
+.del_button {
+  background-color: red;
+}

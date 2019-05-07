@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sira</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Modals -->
+    <section class="modal" id="add_projects_modal">
+      <form class="form add_project_form">
+        <legend>add project</legend>
+        <input type="text" class="input" name="title" placeholder="title">
+        <input type="text" class="input" name="description" placeholder="description">
+        <input type="text" class="input" name="link" placeholder="link to document">
+        <button type="submit" class="button input" >add</button>
+      </form>
+    </section>
+    <main class="main_content">
+      <section class="projects_tab">
+        <button class="button" id="add_projects_button">add project</button>
+        <ul class="projects_list">
+
+        </ul>
+      </section>
+    </main>
+    <script src="js/Event.class.js"></script>
+    <script src="js/ProjectsView.class.js"></script>
+    <script src="js/ProjectsModel.class.js"></script>
+    <script type="text/javascript" src="js/ProjectsController.class.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </body>
+</html>
